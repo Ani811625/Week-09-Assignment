@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            background-color: rgb(162, 156, 156);
+        }
+        .login{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            height: 400px;
+            width: 400px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            box-shadow: 10px 10px rgb(87, 85, 85);
+        }
+        .login>.log{
+            text-align: center;
+            margin-top: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+            font-size:35px ;
+        }
+        .login>.name{
+            margin-left:60px ;
+            margin-top: 20px;
+            height: 30px;
+            width: 270px;
+            border: none;
+            border-bottom: 2px solid grey;
+        }
+        .login>.pass{
+            margin-left:60px ;
+            margin-top: 30px;
+            height: 30px;
+            width: 270px;
+            border: none;
+            border-bottom: 2px solid grey;
+        }
+        .login>.sub{
+            width: 250px;
+            margin-left: 75px;
+            margin-top: 60px;
+            height: 40px;
+            background-image: linear-gradient(to right,rgb(86, 221, 251),rgb(28, 16, 251));
+            border: none;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <h1 class="log">Login</h1>
+        <input type="text" name="" id="" class="name" placeholder="Username">
+        <input type="password" name="" id="" class="pass" placeholder="Password">
+        <button class="sub">Submit</button>
+    </div>
+</body>
+</html>
